@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/filterLinearLayout"
+    style="?android:attr/buttonBarStyle"
+    android:visibility="gone">
+
+    <Button
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:background="@drawable/ic_arrow_back_white_24dp"
+        android:onClick="onMenuBackClicked"
+        android:textColor="@color/textColorPrimary" />
+
+    <Button
+        android:id="@+id/greyButton"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onGreyButtonClicked"
+        android:text="GREY"
+        android:textColor="@color/textColorPrimary" />
+
+    <Button
+        android:id="@+id/negativeButton"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onNegativeButtonClicked"
+        android:text="NEGATIVE"
+        android:textColor="@color/textColorPrimary" />
+
+    <Button
+        android:id="@+id/sepiaButton"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onSepiaButtonClicked"
+        android:text="Sepia"
+        android:textColor="@color/textColorPrimary" />
+
+    <Button
+        android:id="@+id/greenButton"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onGreenButtonClicked"
+        android:text="GREEN"
+        android:textColor="@color/textColorPrimary" />
+
+    <Button
+        android:id="@+id/greyOutBarsButton"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onGreyOutBarButtonClicked"
+        android:text="GREY OUT BARS"
+        android:textColor="@color/textColorPrimary" />
+
+    <Button
+        android:id="@+id/sepiaOutBarsButton"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onSepiaOutBarButtonClicked"
+        android:text="SEPIA OUT BARS"
+        android:textColor="@color/textColorPrimary" />
+
+    <Button
+        android:id="@+id/greyDiagonalButton"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onGreyDiagonalButtonClicked"
+        android:text="GREY DIAGONAL"
+        android:textColor="@color/textColorPrimary" />
+
+    <Button
+        android:id="@+id/sepiaDiagonalButton"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onSepiaDiagonalButtonClicked"
+        android:text="SEPIA DIAGONAL"
+        android:textColor="@color/textColorPrimary" />
+
+    <Button
+        android:id="@+id/sketchButton"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onSketchButtonClicked"
+        android:text="SKETCH"
+        android:textColor="@color/textColorPrimary" />
+
+</LinearLayout>
